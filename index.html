@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Weight Converter</h1>
+    </header>
+    <form id="start-unit">
+        <input type="radio" name="start-weight-unit" id="kgs1">
+        <label for="kgs1">kgs</label><br><br>
+        <input type="radio" name="start-weight-unit" id="lbs1">
+        <label for="lbs1">lbs</label><br><br>
+        <input type="radio" name="start-weight-unit" id="stone1">
+        <label for="stone1">stone</label>
+    </form>
+    <img id="arrow" src="./kisspng-arrow-down-android-down-arrow-5ac931a1595760.704740741523134881366.png" alt="arrow">
+    <form id="finish-unit">
+        <input type="radio" name="finish-weight-unit" id="kgs2">
+        <label for="kgs2">kgs</label><br><br>
+        <input type="radio" name="finish-weight-unit" id="lbs2">
+        <label for="lbs2">lbs</label><br><br>
+        <input type="radio" name="finish-weight-unit" id="stone2">
+        <label for="stone2">stone</label>
+    </form>
+    <form id="enter-weight">
+        <input type="number" name="enter" id="enter" placeholder="Please enter weight">
+        <label for="enter"></label>
+    </form><br>
+    <button id="calc">Calculate</button><br><br>
+    <form id="result">
+        <label for="result-output">Result</label>
+        <input type="number" name="result" id="result-output">
+    </form>
+    <footer>
+        <h2>Created with great frustration by: <span>Oliver Thomas</span></h2>
+    </footer>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
