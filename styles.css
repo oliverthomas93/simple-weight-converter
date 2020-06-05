@@ -1,6 +1,5 @@
 * {
     margin: 0px
-    
 }
 body {
     max-width: 450px;
@@ -17,17 +16,17 @@ body {
     right: 0;
     padding: 0;
     border: 5px solid #46494C;
-
 }
 header {
     margin: 10px;
     padding: 10px;
     background-color: #6C757D;
     font-size: 0.8rem;
-    
 }
 #arrow {
     width: 100px;
+    transform: rotate(-90deg);
+    margin: 20px auto;
 }
 form, div {
     margin: 20px auto;
@@ -66,7 +65,4 @@ form, input {
 }
 #start-unit, #finish-unit {
     display: inline-block;
-}
-#arrow {
-    transform: rotate(-90deg);
 }
